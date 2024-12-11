@@ -40,7 +40,7 @@ header > h1 {
 
 }
 header > p {
-    
+
     padding-bottom: 50px;
 
 }
@@ -65,24 +65,42 @@ section {
 
 }
 
+section > p {
+    padding-bottom: 2em;
+}
+
 section.normal {
     background-color: white;
     color: black;
 }
 
-section.imsgem {
+section.imagem {
     background-color: rgb(0, 0, 0);
     color: white;
-
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.589);
+    background-size: cover;
+    background-attachment: fixed;
 }
 section.imagem > p {
-    width: 400px;
-    background-color: rgba(0, 0, 0, 0.699);
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.61);
     color: white;
     padding-left: 15px;
+    text-shadow: 3px 3px 0px rgb(0, 0, 0);
     
 }
 
+section#img1 {
+    background-image: url('../imagens/background001.jpg');
+    background-position: right center;
+    
+}
+
+section#img2 {
+    background-image: url('../imagens/background002.jpg');
+    background-position: right center;
+    
+}
 footer {
     background-color: black;
     color: white;
